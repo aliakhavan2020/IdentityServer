@@ -13,6 +13,8 @@ namespace Duende.IdentityServer.EntityFramework.Entities;
 public class Client
 {
     public int Id { get; set; }
+    public int Id2 { get; set; }
+    public int Id22 { get; set; }
     public bool Enabled { get; set; } = true;
     public string ClientId { get; set; }
     public string ProtocolType { get; set; } = "oidc";
